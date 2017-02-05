@@ -832,10 +832,8 @@ parallax-section {
 }
 
 .social-icon > ul > li > a {
-    background-color: #7F9A8D;
+    background-color: transparent;
     display: block;
-    height: 70px;
-    width: 70px;
 
     -webkit-transform: rotate(-10deg);
        -moz-transform: rotate(-10deg);
@@ -870,7 +868,7 @@ parallax-section {
 }
 
 .social-icon > ul > li:hover a {
-    background-color: #6CB670;
+    background-color: transparent;
 
 	-webkit-transform: rotateY(0deg);
 	   -moz-transform: rotateY(0deg);
