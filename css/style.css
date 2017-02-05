@@ -98,9 +98,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   background-color: transparent;
   color: #fff;
-  padding: 35px 10px;
+  padding: 45px 10px;
 	border-radius: 50%;
   margin-top: 15px;
+  width: 120px;
+	height: 120px;
+	overflow: hidden;
 
 	-webkit-transition: all .5s ease-in 0s;
 	   -moz-transition: all .5s ease-in 0s;
@@ -127,7 +130,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-transparent {
-	border: 1px solid #4e595f;
+  background-color: #90da86;
+	border: 1px solid #90da86;
 }
 
 .btn-transparent:focus {
@@ -142,7 +146,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-yellow {
-	border: 1px solid #d1c926;
+  background-color: #e2e486;
+	border: 1px solid #e2e486;
 }
 
 .btn-yellow:hover {
@@ -152,6 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-pink {
+  background-color: #e83556;
 	border: 1px solid #e83556;
 }
 
