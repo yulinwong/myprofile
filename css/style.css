@@ -24,7 +24,7 @@ body {
 
 ol, ul {
     margin: 20px;
-    padding: 0;
+    padding-bottom: 20px;
     list-style: none;
 }
 
