@@ -96,6 +96,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 40px;
 }
 
+.profile-image {
+  padding-left: 60px;
+  padding-right: 15px;
+}
+
 /*============ Button ================*/
 
 .btn {
@@ -852,7 +857,6 @@ parallax-section {
     color: #e83556;
     display: inline-block;
     font-size: 32px;
-    line-height: 70px;
     margin: 0;
 
 	-webkit-transform: rotateY(0deg);
