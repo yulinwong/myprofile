@@ -278,9 +278,8 @@ h1, h2, h3, h4, h5, h6 {
 	border-left: solid 4.2426px #ddd;
 }
 
-.my-photo img {
+.img-circle {
   border-radius: 50%;
-  padding: 20px 10px 10px 100px;
 }
 
 /*============ Our Team ================*/
