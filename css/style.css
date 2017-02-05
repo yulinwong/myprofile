@@ -26,7 +26,6 @@ ol, ul {
     margin: 20px;
     padding-bottom: 20px;
     list-style: none;
-    font-size: 16px;
 }
 
 figure {
@@ -257,6 +256,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #6cb670;
+}
+
+.resume-description > ul {
+  font-size: 15px;
+  font-family: lato;
 }
 
 
