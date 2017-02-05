@@ -855,7 +855,7 @@ parallax-section {
 }
 
 .social-icon > ul > li > a > i {
-    color: #e83556;
+    color: #808080;
     display: inline-block;
     font-size: 32px;
     margin: 0;
@@ -883,7 +883,7 @@ parallax-section {
 }
 
 .social-icon > ul > li:hover a i {
-    color: #e83556;
+    color: #999999;
     opacity: 1;
     filter: alpha(opacity=100);
 
@@ -904,7 +904,7 @@ parallax-section {
 }
 
 #scrollUp {
-    border: 1px solid #4e595f;
+    border: 1px solid ##e83556;
     bottom: 15px;
     color: #fff;
     display: none;
@@ -915,6 +915,6 @@ parallax-section {
 }
 
 #scrollUp:hover {
-    background-color: #6cb670;
-    border: 1px solid #6cb670;
+    background-color: #e83556;
+    border: 1px solid #e83556;
 }
