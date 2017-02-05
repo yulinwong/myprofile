@@ -194,6 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-description{
   padding: 40px 0 0 0;
+  max-width: 90%;
 }
 
 /*============ Title ================*/
