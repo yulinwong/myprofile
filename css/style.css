@@ -141,6 +141,37 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+.btn-yellow {
+	border: 1px solid #d1c926;
+}
+
+.btn-yellow:hover {
+    background-color: #d1c926;
+	border: 1px solid transparent;
+    color: #fff;
+}
+
+.btn-pink {
+	border: 1px solid #e83556;
+}
+
+.btn-pink:hover {
+    background-color: #e83556;
+	border: 1px solid transparent;
+    color: #fff;
+}
+
+.btn-blue {
+	border: 1px solid #61d0d4;
+}
+
+.btn-blue:hover {
+    background-color: #61d0d4;
+	border: 1px solid transparent;
+    color: #fff;
+}
+
+
 /*============ Title ================*/
 
 .title {
