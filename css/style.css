@@ -324,160 +324,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
 }
 
-/*============ Our Team ================*/
-
-#our-team {
-    padding: 70px 0;
-}
-
-.about-team {
-    color: #fff;
-    padding-bottom: 40px;
-}
-
-.about-team .title h1 {
-    color: #fff;
-}
-
-.team-mate {
-	background-color: transparent;
-	border: transparent;
-}
-
-.member-photo {
-	overflow: hidden;
-	position: relative;
-}
-
-.member-photo img {
-  border-radius: 50%;
-  padding: 20px 10px 10px 100px;
-	-webkit-transition: all 0.6s ease 0s;
-	   -moz-transition: all 0.6s ease 0s;
-		 -o-transition: all 0.6s ease 0s;
-			transition: all 0.6s ease 0s;
-}
-
-.member-photo:hover img {
-	-webkit-transform: scale(1.2);
-	   -moz-transform: scale(1.2);
-		-ms-transform: scale(1.2);
-		 -o-transform: scale(1.2);
-			transform: scale(1.2);
-}
-
-.member-title {
-	border-bottom: 1px solid #4e595f;
-	padding: 10px 15px;
-}
-
-
-.member-photo .mask {
-    background-color: rgba(43, 44, 48, 0.8);
-    position: absolute;
-    text-align: left;
-    height: 100%;
-    width: 10%;
-    left: 5px;
-    top: -50px;
-	opacity: 0;
-	filter: alpha(opacity=0);
-
-	-webkit-transition: all 600ms ease-out 0s;
-	   -moz-transition: all 600ms ease-out 0s;
-		 -o-transition: all 600ms ease-out 0s;
-		    transition: all 600ms ease-out 0s;
-
-	-webkit-transform: rotateY(180deg) scale(0.5,0.5);
-	   -moz-transform: rotateY(180deg) scale(0.5,0.5);
-		-ms-transform: rotateY(180deg) scale(0.5,0.5);
-		 -o-transform: rotateY(180deg) scale(0.5,0.5);
-			transform: rotateY(180deg) scale(0.5,0.5);
-}
-
-.member-photo:hover .mask {
-    cursor: pointer;
-	opacity: 1;
-	filter: alpha(opacity=100);
-
-	-webkit-transform: rotateY(0deg) scale(1,1);
-	   -moz-transform: rotateY(0deg) scale(1,1);
-		-ms-transform: rotateY(0deg) scale(1,1);
-		 -o-transform: rotateY(0deg) scale(1,1);
-		    transform: rotateY(0deg) scale(1,1);
-}
-
-.team-mate h3 {
-	font-family: Ubuntu,sans-serif;
-	font-size: 20px;
-	margin: 0 0 5px;
-}
-
-.member-info {
-	padding: 15px;
-}
-
-.mask ul {
-    text-align: center;
-    position: relative;
-    top: 125px;
-}
-
-.mask ul li {
-    display: inline-block;
-    margin-right: 15px;
-}
-
-.mask ul li a {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    color: #fff;
-    display: block;
-    font-size: 20px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    width: 35px;
-}
-
-.mask ul li a:hover {
-    background-color: #6cb670;
-    border: 1px solid transparent;
-}
-
-/*============ Counter ================*/
-
-#counter {
-    background-image: url(https://cloud.githubusercontent.com/assets/8654889/9930606/6b3db762-5d67-11e5-86a1-18a586e08884.jpg);
-    padding: 70px 0;
-}
-
-.counters-item {
-    border: 1px solid #4e595f;
-    padding-bottom: 30px;
-}
-
-.counters-item > div {
-    margin: 10px 0;
-}
-
-.counters-item span {
-    display: inline;
-    font-family: Lato, sans-serif;
-    font-size: 35px;
-    line-height: 50px;
-}
-
-.counters-item i {
-    margin-bottom: 15px;
-}
-
-.counters-item h3 {
-	font-family: Ubuntu,sans-serif;
-	font-size: 20px;
-	margin: 0;
-}
-
 parallax-section {
 	background-attachment: fixed !important;
 	background-position: center center;
@@ -485,22 +331,107 @@ parallax-section {
 	background-size: cover;
 }
 
-/*============ Main Features  ================*/
+/*=================================================================
+	Footer section
+==================================================================*/
 
-#main-features {
-    padding: 70px 0;
+.social-icon {
+    padding: 20px 0 30px;
 }
 
-.feature-media {
-	margin-bottom: 30px;
+.social-icon > ul {
+    text-align: center;
 }
 
-.feature-desc a {
-	margin-right: 20px;
+.social-icon > ul > li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-icon > ul > li > a {
+    background-color: transparent;
+    display: block;
+
+    -webkit-transform: rotate(-10deg);
+       -moz-transform: rotate(-10deg);
+         -o-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+
+      -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+           -ms-transition: all 0.5s ease;
+               transition: all 0.5s ease;
+}
+
+.social-icon > ul > li > a > i {
+    color: #808080;
+    display: inline-block;
+    font-size: 32px;
+    margin: 0;
+
+	-webkit-transform: rotateY(0deg);
+	   -moz-transform: rotateY(0deg);
+		-ms-transform: rotateY(0deg);
+		 -o-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+
+	-webkit-transition: all 400ms ease-out 0s;
+	   -moz-transition: all 400ms ease-out 0s;
+		 -o-transition: all 400ms ease-out 0s;
+			transition: all 400ms ease-out 0s;
+}
+
+.social-icon > ul > li:hover a {
+    background-color: transparent;
+
+	-webkit-transform: rotateY(0deg);
+	   -moz-transform: rotateY(0deg);
+		-ms-transform: rotateY(0deg);
+		 -o-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+}
+
+.social-icon > ul > li:hover a i {
+    color: #999999;
+    opacity: 1;
+    filter: alpha(opacity=100);
+
+	-webkit-transform: rotateY(180deg);
+	   -moz-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		 -o-transform: rotateY(180deg);
+			transform: rotateY(180deg);
+}
+
+.copyright {
+    padding: 20px 0;
+    color: #fff;
+}
+
+.copyright > img {
+    margin-bottom: 15px;
+}
+
+#scrollUp {
+    border: 1px solid ##e83556;
+    bottom: 15px;
+    color: #fff;
+    display: none;
+    padding: 8px 12px;
+    position: fixed;
+    right: 20px;
+    z-index: 600;
+}
+
+#scrollUp:hover {
+    background-color: #e83556;
+    border: 1px solid #e83556;
 }
 
 /*=================================================================
-	Skills section
+	excess section
 ==================================================================*/
 
 #skills {
@@ -529,49 +460,6 @@ parallax-section {
 
 .skills-block h3 {
 	text-transform: uppercase;
-}
-
-/*=================================================================
-	Meter
-==================================================================*/
-
-#meter {
-    padding: 70px 0;
-    background-image: url(https://cloud.githubusercontent.com/assets/8654889/9922994/c8510896-5d21-11e5-9f31-353c5a9c29e5.jpg);
-}
-
-.meter-chart > h3 {
-    border-bottom: 1px solid;
-    margin: 25px 0 15px;
-    padding-bottom: 10px;
-}
-
-.chart {
-    display: block;
-    position: relative;
-}
-
-.percent {
-    display: inline-block;
-    font-size: 1.6em;
-    height: 150px;
-    line-height: 150px;
-    text-align: center;
-    width: 150px;
-    z-index: 2;
-}
-
-.chart canvas {
-    left: 50%;
-    margin-left: -75px;
-    position: absolute;
-    top: 0;
-}
-
-.percent:after {
-    content: '%';
-    margin-left: .1em;
-    font-size: .8em;
 }
 
 /*=================================================================
@@ -730,181 +618,4 @@ parallax-section {
 
 #our-clients .item {
     margin: 10px;
-}
-
-/*=================================================================
-	Contact
-==================================================================*/
-
-#contact-us {
-  background-image: url(https://cloud.githubusercontent.com/assets/8654889/9922513/06e21484-5d1c-11e5-80fd-5e39178b0425.jpg);
-    padding: 50px 0 40px;
-}
-
-.contact-form {
-	margin-bottom: 40px;
-}
-
-.contact-form .form-control {
-	background-color: transparent;
-	border: 1px solid #4e595f;
-	height: 38px;
-}
-
-.contact-form input:hover,
-.contact-form textarea:hover,
-#contact-submit:hover {
-    border-color: #6CB670;
-}
-
-#contact-submit {
-	border: 1px solid #4e595f;
-	padding: 12px 0;
-	width: 100%;
-	margin: 0;
-}
-
-.contact-form textarea.form-control {
-    padding: 10px;
-    height: 120px;
-}
-
-.contact-info p {
-	margin-bottom: 25px;
-}
-
-.con-info {
-    margin-bottom: 20px;
-}
-
-.con-info i,
-.con-info span {
-    float: left;
-}
-
-.con-info span {
-	margin: -5px 0 0 15px;
-}
-
-.error {
-    display: none;
-    padding: 10px;
-    color: #D8000C;
-    border-radius: 4px;
-    font-size: 13px;
-    background-color: #FFBABA;
-}
-
-.success {
-    background-color: #6cb670;
-    border-radius: 4px;
-    color: #fff;
-    display: none;
-    font-size: 13px;
-    padding: 10px;
-}
-
-#map-canvas {
-    height: 370px;
-    width: 100%;
-}
-
-
-/*=================================================================
-	Footer section
-==================================================================*/
-
-.social-icon {
-    padding: 20px 0 30px;
-}
-
-.social-icon > ul {
-    text-align: center;
-}
-
-.social-icon > ul > li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.social-icon > ul > li > a {
-    background-color: transparent;
-    display: block;
-
-    -webkit-transform: rotate(-10deg);
-       -moz-transform: rotate(-10deg);
-         -o-transform: rotate(-10deg);
-        -ms-transform: rotate(-10deg);
-            transform: rotate(-10deg);
-
-      -webkit-transition: all 0.5s ease;
-          -moz-transition: all 0.5s ease;
-            -o-transition: all 0.5s ease;
-           -ms-transition: all 0.5s ease;
-               transition: all 0.5s ease;
-}
-
-.social-icon > ul > li > a > i {
-    color: #808080;
-    display: inline-block;
-    font-size: 32px;
-    margin: 0;
-
-	-webkit-transform: rotateY(0deg);
-	   -moz-transform: rotateY(0deg);
-		-ms-transform: rotateY(0deg);
-		 -o-transform: rotateY(0deg);
-			transform: rotateY(0deg);
-
-	-webkit-transition: all 400ms ease-out 0s;
-	   -moz-transition: all 400ms ease-out 0s;
-		 -o-transition: all 400ms ease-out 0s;
-			transition: all 400ms ease-out 0s;
-}
-
-.social-icon > ul > li:hover a {
-    background-color: transparent;
-
-	-webkit-transform: rotateY(0deg);
-	   -moz-transform: rotateY(0deg);
-		-ms-transform: rotateY(0deg);
-		 -o-transform: rotateY(0deg);
-			transform: rotateY(0deg);
-}
-
-.social-icon > ul > li:hover a i {
-    color: #999999;
-    opacity: 1;
-    filter: alpha(opacity=100);
-
-	-webkit-transform: rotateY(180deg);
-	   -moz-transform: rotateY(180deg);
-		-ms-transform: rotateY(180deg);
-		 -o-transform: rotateY(180deg);
-			transform: rotateY(180deg);
-}
-
-.copyright {
-    padding: 20px 0;
-    color: #fff;
-}
-
-.copyright > img {
-    margin-bottom: 15px;
-}
-
-#scrollUp {
-    border: 1px solid ##e83556;
-    bottom: 15px;
-    color: #fff;
-    display: none;
-    padding: 8px 12px;
-    position: fixed;
-    right: 20px;
-    z-index: 600;
-}
-
-#scrollUp:hover {
-    background-color: #e83556;
-    border: 1px solid #e83556;
 }
