@@ -29,6 +29,10 @@ body {
     color: #999999;
 }
 
+.bg-footer {
+    background-color: #e77989;
+}
+
 ol, ul {
     margin: 0;
     padding: 0;
