@@ -103,9 +103,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /*============ Button ================*/
 
+.profile-button {
+  padding: 5px;
+}
+
 .btn {
   font-family: "megrim";
-  font-size: 15px;
+  font-size: 16px;
   background-color: transparent;
   color: #fff;
   padding: 45px 10px;
