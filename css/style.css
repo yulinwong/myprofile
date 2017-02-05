@@ -23,7 +23,7 @@ body {
 }
 
 ol, ul {
-    margin: 0;
+    margin: 20px;
     padding: 0;
     list-style: none;
 }
