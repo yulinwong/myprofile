@@ -99,10 +99,30 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:
 }
 
+.resume {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.resume-tabs>li.active>a, .resume-tabs>li.active>a:hover, .resume-tabs>li.active>a:focus {
+color:#e83556;cursor:default;background-color:transparent;border:1px solid #ddd;border-right-color:transparent;
+}
+
+.resume>li>a{position:relative;display:block;padding:10px 15px;color: #999999;}.resume>li>a:hover,.resume>li>a:focus{text-decoration:none;color:#61d0d4;}
+
+.resume-tabs>li {
+  float: left;
+}
+
 /*============ Button ================*/
 
 .profile-button {
   padding: 5px;
+}
+
+.header-icon {
+  margin-left: 50px;
 }
 
 .btn {
@@ -196,6 +216,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*============ Title ================*/
+
+.inner-title {
+    padding-bottom: 20px;
+}
+
+.inner-title h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 38px;
+    color: #808080;
+}
 
 .title {
     padding-bottom: 60px;
@@ -447,10 +478,12 @@ parallax-section {
 	excess section
 ==================================================================*/
 
+/*==========
 #skills {
   background-color: #ff8f8f;
     padding: 70px 0px 40px 0px;
 }
+======*/
 
 #skills .title {
     padding-bottom: 25px;
