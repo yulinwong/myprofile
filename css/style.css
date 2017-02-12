@@ -55,7 +55,7 @@ a:focus, a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Amita";
+    font-family: "Pangolin";
     font-weight: 400;
     text-align: left;
 }
@@ -478,12 +478,10 @@ parallax-section {
 	excess section
 ==================================================================*/
 
-/*==========
 #skills {
   background-color: #ff8f8f;
     padding: 70px 0px 40px 0px;
 }
-======*/
 
 #skills .title {
     padding-bottom: 25px;
