@@ -88,8 +88,9 @@
           <a class="btn btn-pink">EXPERIENCE</a>
         <!-- /section title -->
 
+<!--
 <div class="container-fluid">
-  <div class="col-md-4 col-sm-4 col-xs-4">
+  <div class="col-md-4 col-sm-4 col-xs-5">
   <ul class="resume resume-tabs">
      <li class="active"><a data-toggle="tab" href="#nimbus-tech"><Strong> Nimbus Tech</strong> <br> October 2015 - Current </a></li>
      <li><a data-toggle="tab" href="#freshoffice"><strong> FreshOffice </strong> <br> January - September 2015 </a></li>
@@ -97,7 +98,7 @@
    </ul>
  </div>
 
-   <div class="col-md-8 col-sm-8 col-xs-8 tab-content">
+   <div class="col-md-8 col-sm-8 col-xs-7 tab-content">
      <div id="nimbus-tech" class="tab-pane fade in active">
        <h3> Project Manager </h3>
        <p> October 2015 - CURRENT </p>
@@ -142,8 +143,32 @@
          <div class="divider"></div>
 
        </div> <!-- end of tab content -->
+<!-- hide -->
+
+<div class="tab">
+  <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'London')">London</a>
+  <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Paris')">Paris</a>
+  <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</a>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
 
 </div> <!-- end of tabs container -->
+
 </div> <!-- end of partial column -->
 
 <div class="col-md-3 skills-section">
@@ -214,6 +239,8 @@
   <script src="js/grid.js"></script>
   <!-- Custom js -->
   <script src="js/custom.js"></script>
+  <!-- Resume Tabs js -->
+  <script src="js/resume-tabs.js"></script>
     </body>
 
 </html>
