@@ -18,3 +18,10 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</a>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
