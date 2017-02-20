@@ -5,6 +5,10 @@
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+#resume {
+  padding-top: 100px;
+}
+
 .bg-one {
     background-color: #f6f6f6;
 }
@@ -103,8 +107,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Style the tab */
 div.tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
     font-family: Special Elite;
     letter-spacing: 1px;
 }
@@ -124,14 +126,13 @@ div.tab a {
 /* Change background color of links on hover */
 div.tab a:hover {
     background-color: #ffffff;
-    text-decoration: underline;
-    color: #61d0d4;
+    border: 2px dashed #61d0d4;
 }
 
 /* Create an active/current tablink class */
 div.tab a:focus, .active {
     background-color: #ffffff;
-    text-decoration: underline;
+    border: 2px dashed #61d0d4;
 }
 
 .tablinks {
@@ -144,7 +145,6 @@ margin: 5px;
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
     border-top: none;
 }
 
@@ -281,10 +281,6 @@ margin: 5px;
 }
 
 /*============ Title ================*/
-
-.inner-title {
-    padding-bottom: 20px;
-}
 
 .inner-title h2 {
     text-transform: uppercase;
