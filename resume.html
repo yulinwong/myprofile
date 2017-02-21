@@ -93,10 +93,11 @@
 <div class="container-fluid">
   <div class="col-xs-12 tab-content">
     <div class="tab">
- <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Nimbus Tech')">Nimbus Tech</a>
- <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'FreshOffice')">FreshOffice</a>
- <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Perx')">Perx</a>
- <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Turbo One')">Turbo One</a>
+    <!-- use JavaScript to "click" on the specified tab link with id="defaultOpen" -->
+    <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Nimbus Tech')" id="defaultOpen">Nimbus Tech</a>
+    <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'FreshOffice')">FreshOffice</a>
+    <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Perx')">Perx</a>
+    <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Turbo One')">Turbo One</a>
 </div>
 
 <div id="Nimbus Tech" class="tabcontent">
@@ -238,8 +239,6 @@
   <script src="js/custom.js"></script>
   <!-- Resume Tabs js -->
   <script src="js/resume-tabs.js"></script>
-  <!-- use JavaScript to "click" on the specified tab link -->
-  <a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Nimbus Tech')" id="defaultOpen">Nimbus Tech</a>
 <script>
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
