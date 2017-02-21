@@ -463,11 +463,11 @@ parallax-section {
 }
 
 #scrollUp {
-    border: 1px solid ##e83556;
+    border: 1px solid #e83556;
     bottom: 15px;
-    color: #fff;
+    color: #e83556;
     display: none;
-    padding: 8px 12px;
+    padding: 2px 6px;
     position: fixed;
     right: 20px;
     z-index: 600;
