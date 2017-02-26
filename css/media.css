@@ -1253,3 +1253,45 @@ td.visible-lg {
         color: #777;
     }
 }
+
+/*project page optimisation*/
+.proj-col,.proj-half,.proj-third,.proj-twothird,.proj-threequarter,.proj-quarter{float:left;width:100%}
+.proj-col.s1{width:8.33333%}
+.proj-col.s2{width:16.66666%}
+.proj-col.s3{width:24.99999%}
+.proj-col.s4{width:33.33333%}
+.proj-col.s5{width:41.66666%}
+.proj-col.s6{width:49.99999%}
+.proj-col.s7{width:58.33333%}
+.proj-col.s8{width:66.66666%}
+.proj-col.s9{width:74.99999%}
+.proj-col.s10{width:83.33333%}
+.proj-col.s11{width:91.66666%}
+.proj-col.s12,.proj-half,.proj-third,.proj-twothird,.proj-threequarter,.proj-quarter{width:99.99999%}
+@media (min-width:601px){
+.proj-col.m1{width:8.33333%}
+.proj-col.m2{width:16.66666%}
+.proj-col.m3,.proj-quarter{width:24.99999%}
+.proj-col.m4,.proj-third{width:33.33333%}
+.proj-col.m5{width:41.66666%}
+.proj-col.m6,.proj-half{width:49.99999%}
+.proj-col.m7{width:58.33333%}
+.proj-col.m8,.proj-twothird{width:66.66666%}
+.proj-col.m9,.proj-threequarter{width:74.99999%}
+.proj-col.m10{width:83.33333%}
+.proj-col.m11{width:91.66666%}
+.proj-col.m12{width:99.99999%}}
+@media (min-width:993px){
+.proj-col.l1{width:8.33333%}
+.proj-col.l2{width:16.66666%}
+.proj-col.l3,.proj-quarter{width:24.99999%}
+.proj-col.l4,.proj-third{width:33.33333%}
+.proj-col.l5{width:41.66666%}
+.proj-col.l6,.proj-half{width:49.99999%}
+.proj-col.l7{width:58.33333%}
+.proj-col.l8,.proj-twothird{width:66.66666%}
+.proj-col.l9,.proj-threequarter{width:74.99999%}
+.proj-col.l10{width:83.33333%}
+.proj-col.l11{width:91.66666%}
+.proj-col.l12{width:99.99999%}
+}

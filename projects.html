@@ -10,7 +10,7 @@
     <meta name="author" content="YL WONG">
     <link rel="icon" href="https://cloud.githubusercontent.com/assets/8654889/8371922/9d5a9082-1c10-11e5-905f-ac84ce7c2e02.jpg">
 
-    <title>YL Wong's Profile</title>
+    <title>YL Wong's Projects</title>
 
 
     <!-- bootstrap.min css -->
@@ -70,10 +70,60 @@
 	      <!-- /main nav -->
 </div>
         </nav>
-
-
     <!-- End Fixed Navigation ==================================== -->
 
+    <!--Start Home Section ========================= -->
+  <section id="resume">
+    <div class="proj-container">
+        <!-- section title -->
+        <div class="inner-title text-left" >
+          <h2>PRO<span class="color">JECTS</span></h2>
+        </div>
+
+        <div class="proj-row-padding proj-section">
+          <div class="proj-col s3">
+            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)" title="Living room">
+          </div>
+          <div class="proj-col s3">
+            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)" title="Dining room">
+          </div>
+          <div class="proj-col s3">
+            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)" title="Bedroom">
+          </div>
+          <div class="proj-col s3">
+            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(4)" title="Second Living Room">
+          </div>
+        </div>
+
+    <div class="proj-display-container mySlides">
+    <img src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:80%;margin-bottom:-6px;margin:0 auto; display: block;">
+      <div class="proj-display-topleft proj-container proj-white">
+        <p>Living Room</p>
+      </div>
+    </div>
+
+    <div class="proj-display-container mySlides">
+    <img src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:100%;margin-bottom:-6px">
+      <div class="proj-display-topleft proj-container proj-white">
+        <p>Dining Room</p>
+      </div>
+    </div> <!-- end of project #2 -->
+
+    <div class="proj-display-container mySlides">
+    <img src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:100%;margin-bottom:-6px">
+      <div class="proj-display-topleft proj-container proj-white">
+        <p>Bedroom</p>
+      </div>
+    </div> <!-- end of project #3 -->
+
+    <div class="proj-display-container mySlides">
+    <img src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:100%;margin-bottom:-6px">
+    <div class="proj-display-topleft proj-container proj-white">
+        <p>Living Room II</p>
+      </div>
+    </div> <!-- end of project #4 -->
+  </div> <!-- end of projects -->
+</section> <!-- end of section -->
     <!-- Back to Top
     ============================== -->
     <a href="javascript:;" id="scrollUp">
@@ -133,6 +183,46 @@
 <script>
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+</script>
+<script>
+// Script to open and close sidenav when on tablets and phones
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Slideshow Apartment Images
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
 </script>
 
   </body>
