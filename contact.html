@@ -10,7 +10,7 @@
     <meta name="author" content="YL WONG">
     <link rel="icon" href="https://cloud.githubusercontent.com/assets/8654889/8371922/9d5a9082-1c10-11e5-905f-ac84ce7c2e02.jpg">
 
-    <title>YL Wong's Projects</title>
+    <title>Contact YL</title>
 
 
     <!-- bootstrap.min css -->
@@ -81,21 +81,41 @@
     <div class="container">
         <!-- section title -->
         <div class="inner-title text-left" >
-          <h2>PRO<span class="color">JECTS</span></h2>
+          <h2>CONTACT <span class="color"> ME</span></h2>
         </div>
+      </div> <!-- end of container-fluid header -->
 
-        <div class="proj-row-padding proj-section">
-          <div class="proj-col s4">
-            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/23338454/859f7ca6-fc46-11e6-9ee1-045a2071e604.png" width="100%; cursor:pointer;"><a href="https://cloud.githubusercontent.com/assets/8654889/23338454/859f7ca6-fc46-11e6-9ee1-045a2071e604.png"></a>
-          </div>
-          <div class="proj-col s4">
-            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/23338455/85a09082-fc46-11e6-9798-c8ed2cbe7c8e.png" width="100%; cursor:pointer;"><a href="https://cloud.githubusercontent.com/assets/8654889/23338455/85a09082-fc46-11e6-9798-c8ed2cbe7c8e.png"></a>
-          </div>
-          <div class="proj-col s4">
-            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/23338456/85a1faee-fc46-11e6-9032-f9d6776333b2.png" width="100%; cursor:pointer;"><a href="https://cloud.githubusercontent.com/assets/8654889/23338456/85a1faee-fc46-11e6-9032-f9d6776333b2.png"></a>
-          </div>
-        </div>
-  </div> <!-- end of projects -->
+      <div class="container">
+        <div class="col-md-9 col-xs-5 col-sm-4"> <!-- start of partial column -->
+          <div class="divider"></div>
+
+          <form action="/my-handling-form-page" method="post">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="tel" name="user_tel">
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+    <div class="button">
+  <button type="submit">Talk to Me</button>
+</div>
+</form>
+
+</div> <!-- end of col-md-9 -->
+</div> <!-- end of contact container -->
+
+</div><!-- end of contact -->
+
 </section> <!-- end of section -->
     <!-- Back to Top
     ============================== -->
@@ -149,54 +169,6 @@
 <script src="js/grid.js"></script>
 <!-- Custom js -->
 <script src="js/custom.js"></script>
-<!-- Resume Tabs js -->
-<script>
-// Script to open and close sidenav when on tablets and phones
-function w3_open() {
-    document.getElementById("mySidenav").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
-
-function w3_close() {
-    document.getElementById("mySidenav").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-
-// Slideshow Apartment Images
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-  }
-  x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " w3-opacity-off";
-}
-</script>
-<!-- fancyBox -->
-<script type="text/javascript">
-$(document).ready(function() {
-$(".fancybox").fancybox();
-});
-</script>
-
-  </body>
+</body>
 
 </html>

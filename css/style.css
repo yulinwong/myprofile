@@ -417,9 +417,73 @@ parallax-section {
 .proj-opacity-max{opacity:0.25;-webkit-backface-visibility:hidden;}
 .proj-opacity-min{opacity:0.75;-webkit-backface-visibility:hidden;}
 
-/*=================================================================
-	Footer section
-==================================================================*/
+
+/*===================== contact section ================*/
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  font-family: Barrio;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  margin: 0 35px;
+}
+
+input {
+  height: 35px;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em 'Lato', serif;
+  width: 350px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  padding: 10px;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+  letter-spacing: 2px;
+  padding: 5px;
+  background-color: #e83556;
+  color: #ffffff;
+}
+
+/*===================== Footer section ================*/
 
 .social-icon {
     padding: 20px 0 30px;
