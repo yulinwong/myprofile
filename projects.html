@@ -38,6 +38,10 @@
             <link href='https://fonts.googleapis.com/css?family=Pangolin' rel='stylesheet' type='text/css'>
             <!-- Barrio Font -->
             <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet' type='text/css'>
+            <!-- Fancy Box -->
+            <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+            <link rel="stylesheet" href="js/fancyBox/source/jquery.fancybox.css" type="text/css" media="screen" />
+            <script type="text/javascript" src="js/fancyBox/source/jquery.fancybox.pack.js"></script>
 </head>
 
 <body>
@@ -81,47 +85,16 @@
         </div>
 
         <div class="proj-row-padding proj-section">
-          <div class="proj-col s3">
-            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)" title="Living room">
+          <div class="proj-col s4">
+            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/23338454/859f7ca6-fc46-11e6-9ee1-045a2071e604.png" width="100%; cursor:pointer;"><a href="https://cloud.githubusercontent.com/assets/8654889/23338454/859f7ca6-fc46-11e6-9ee1-045a2071e604.png"></a>
           </div>
-          <div class="proj-col s3">
-            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)" title="Dining room">
+          <div class="proj-col s4">
+            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/23338455/85a09082-fc46-11e6-9798-c8ed2cbe7c8e.png" width="100%; cursor:pointer;"><a href="https://cloud.githubusercontent.com/assets/8654889/23338455/85a09082-fc46-11e6-9798-c8ed2cbe7c8e.png"></a>
           </div>
-          <div class="proj-col s3">
-            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)" title="Bedroom">
-          </div>
-          <div class="proj-col s3">
-            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(4)" title="Second Living Room">
+          <div class="proj-col s4">
+            <img class="demo proj-opacity proj-hover-opacity-off" src="https://cloud.githubusercontent.com/assets/8654889/23338456/85a1faee-fc46-11e6-9032-f9d6776333b2.png" width="100%; cursor:pointer;"><a href="https://cloud.githubusercontent.com/assets/8654889/23338456/85a1faee-fc46-11e6-9032-f9d6776333b2.png"></a>
           </div>
         </div>
-
-    <div class="proj-display-container mySlides">
-    <img src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:80%;margin-bottom:-6px;margin:0 auto; display: block;">
-      <div class="proj-display-topleft proj-container proj-white">
-        <p>Living Room</p>
-      </div>
-    </div>
-
-    <div class="proj-display-container mySlides">
-      <img src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:80%;margin-bottom:-6px;margin:0 auto; display: block;">
-      <div class="proj-display-topleft proj-container proj-white">
-        <p>Dining Room</p>
-      </div>
-    </div> <!-- end of project #2 -->
-
-    <div class="proj-display-container mySlides">
-      <img src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:80%;margin-bottom:-6px;margin:0 auto; display: block;">
-      <div class="proj-display-topleft proj-container proj-white">
-        <p>Bedroom</p>
-      </div>
-    </div> <!-- end of project #3 -->
-
-    <div class="proj-display-container mySlides">
-      <img src="https://cloud.githubusercontent.com/assets/8654889/22625160/6d6c8814-ebc9-11e6-8a5f-d78dfcb77220.jpg" style="width:80%;margin-bottom:-6px;margin:0 auto; display: block;">
-    <div class="proj-display-topleft proj-container proj-white">
-        <p>Living Room II</p>
-      </div>
-    </div> <!-- end of project #4 -->
   </div> <!-- end of projects -->
 </section> <!-- end of section -->
     <!-- Back to Top
@@ -223,6 +196,12 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-opacity-off";
 }
+</script>
+<!-- fancyBox -->
+<script type="text/javascript">
+$(document).ready(function() {
+$(".fancybox").fancybox();
+});
 </script>
 
   </body>
