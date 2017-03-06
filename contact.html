@@ -87,8 +87,9 @@
       <div class="container">
         <div class="col-md-9 col-xs-5 col-sm-4"> <!-- start of partial column -->
           <div class="divider"></div>
-
-          <form action="mailto:someone@example.com" method="post">
+          <!-- start of contact form -->
+          <form action="mail.php" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="action" value="submit">
     <div>
         <label for="name">Name:</label>
         <input type="text" id="name" name="user_name">
@@ -102,13 +103,14 @@
         <input type="tel" id="tel" name="user_tel">
     </div>
     <div>
-        <label for="msg">Message:</label>
-        <textarea id="msg" name="user_message"></textarea>
+        <label for="message">Message:</label>
+        <textarea id="message" name="user_message"></textarea>
     </div>
     <div class="button">
   <button type="submit">Talk to Me</button>
 </div>
 </form>
+<!-- end of contact form -->
 
 </div> <!-- end of col-md-9 -->
 </div> <!-- end of contact container -->
