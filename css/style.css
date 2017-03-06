@@ -408,8 +408,8 @@ parallax-section {
 .proj-display-bottomleft{position:absolute;left:0;bottom:0;}.proj-display-bottomright{position:absolute;right:0;bottom:0;}
 .proj-white,.proj-hover-white:hover{color:#000!important;background-color:#fff!important;}
 
-.proj-row-padding,.proj-row-padding>.proj-half,.proj-row-padding>.proj-third,.proj-row-padding>.proj-twothird,.proj-row-padding>.proj-threequarter,.proj-row-padding>.proj-quarter,.proj-row-padding>.proj-col{padding:0 8px;}
-.proj-col{float:left;width:100%;}
+.proj-row-padding,.proj-row-padding>.proj-half,.proj-row-padding>.proj-third,.proj-row-padding>.proj-twothird,.proj-row-padding>.proj-threequarter,.proj-row-padding>.proj-quarter,.proj-row-padding>.proj-col{padding:5px 15px;}
+.proj-col{float:left;width:100%; border: 2px dashed #777; margin: 15px;}
 .proj-section{margin-top:16px!important;margin-bottom:16px!important;}
 
 .proj-opacity,.proj-hover-opacity:hover{opacity:0.60;-webkit-backface-visibility:hidden;}
