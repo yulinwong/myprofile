@@ -152,6 +152,10 @@ margin: 5px;
   font-size: 14px;
 }
 
+.tabcontent h3 {
+  font-size: 16px;
+}
+
 /*== fade in effect on tabs ==*/
 .tabcontent {
     -webkit-animation: fadeEffect 1s;
